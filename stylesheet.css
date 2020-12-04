@@ -14,7 +14,7 @@ body {
 }
 
 img {
-    height: 5vh;
+    height: 5vw;
 }
 
 .image {
@@ -53,8 +53,7 @@ p {
 
 h1.innovate1z03 {
     text-align: center;
-    margin-top: 35vh;
-   
+    margin-top: 35vh;  
 }
 
 p.welcomeSentence {
@@ -124,6 +123,30 @@ h1:hover {
 
 .innoDiv {
     animation: fadeIn 8s;
+}
+
+.introDiv {
+    margin-top: 100vh;
+}
+
+.currentDiv {
+    margin-top: 20vh;
+}
+
+.proposeDiv {
+    margin-top: 20vh;
+}
+
+.protoDiv {
+    margin-top: 20vh;
+}
+
+.thanks {
+    margin-top: 20vh;
+}
+
+.biblioDiv {
+    margin-top: 20vh;
 }
 
 #top {
