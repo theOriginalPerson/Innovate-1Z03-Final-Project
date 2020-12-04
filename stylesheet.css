@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+    background-image: url('wallpaper.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+img {
+    height: 5vh;
+}
+
+.image {
+    text-align: center;
+}
+
+/*//////////////*/
+/*/ ANIMATIONS /*/
+/*//////////////*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        color: aliceblue;
+    }
+    to {
+        opacity: 1;
+        color: aliceblue;
+    }
+}
+
+/*///////////////////////////*/
+/*/ HEADINGS and PARAGRAPHS /*/
+/*///////////////////////////*/
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 5vh;
+    letter-spacing: 3px;
+    font-size: 2vw;
+}
+
+p {
+    color: aliceblue;
+    font-size: 1vw;
+}
+
+h1.innovate1z03 {
+    text-align: center;
+    margin-top: 35vh;
+   
+}
+
+p.welcomeSentence {
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+
+p.welcomeSentence:hover {
+    color: aqua;
+}
+
+h1.intro {
+    text-align: center;
+    margin-top: 40vh;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+/*//////////////////////////////*/
+/*/ navlinks and nav container /*/
+/*//////////////////////////////*/
+.navContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20vw;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+    overflow-x: hidden;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.navlinks {
+    text-align: center;
+    letter-spacing: 0.3vw;
+}
+
+.navlinks a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 10vh;
+    animation: fadeIn 2s;
+    font-size: 1.2vw;
+}
+
+.navlinks a:hover {
+    color: aqua;
+}
+
+.navlinks a:active {
+    color: purple;
+}
+/*//////////////////////////////////////*/
+/*/ MAIN DIV and everything in between /*/
+/*//////////////////////////////////////*/
+.mainDiv {
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+
+.innoDiv {
+    animation: fadeIn 8s;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+}
+
+.mcmasterLink {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.mcmasterLink:hover {
+    color: aqua;
+}
+
+.mcmasterLink:active {
+    color: purple;
+}
