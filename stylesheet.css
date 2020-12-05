@@ -48,7 +48,7 @@ h1 {
 
 p {
     color: aliceblue;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 
 h1.innovate1z03 {
@@ -88,7 +88,7 @@ h1:hover {
     background-color: black;
     opacity: 0.6;
     overflow-x: hidden;
-    padding-top: 5vh;
+    padding-top: 0vh;
     padding-bottom: 5vh;
 }
 
@@ -141,7 +141,7 @@ h1:hover {
     margin-top: 20vh;
 }
 
-.thanks {
+#thanks {
     margin-top: 20vh;
 }
 
