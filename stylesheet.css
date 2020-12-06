@@ -21,6 +21,14 @@ img {
     text-align: center;
 }
 
+.protoImage {
+    text-align: center;
+}
+
+.accProtoImage {
+    height: 30vw;
+}
+
 /*//////////////*/
 /*/ ANIMATIONS /*/
 /*//////////////*/
